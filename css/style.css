@@ -1,0 +1,177 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#home{
+    height: 600px;
+}
+
+
+#about{
+    height: 600px;
+}
+
+
+#skills{
+    height: 600px;
+}
+
+#contact{
+    height: 600px;
+}
+
+
+.home-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+
+
+.home-content {
+    margin: 21% 0% 0% 0%;
+    text-align: center;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: flex-end; 
+    height: 10vh;  
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 4%;   
+    position: fixed; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+a:hover{
+    background-color: rgb(145, 58, 106);
+    border-radius: 5%;
+}
+
+
+.link {
+    margin: 2% 12% 0% 0%;
+    font-size: large;
+}
+
+
+body {
+    background-image: url(../assets/images/img4.jpg);
+     background-size: 170%; 
+}
+
+
+h1 {
+    color: white;
+    margin: 19% 10% 2% 22%;
+    font-weight: 80%;
+}
+
+
+.skill-content1 {
+    color: white;
+    margin: 3% 8% 0% 22%;
+    list-style: none;
+    font-size: 30px;
+}
+
+
+.skill-content {
+    margin-top: 9%;
+    font-weight: 900;
+    margin-bottom: 30%;
+}
+
+
+.about-content1 {
+    color: white;
+    margin: 0% 20% 1% 0%;
+    font-size: 170%;
+}
+
+
+h2 {
+    color: rgb(11, 210, 255);
+    text-align: center;
+    margin: 6% 0% 0% 9%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.about-container {
+    margin-top: 17%;
+    text-align: center;  
+}
+
+
+.contact-content {
+    margin-top: 14%;
+    font-weight: 900;
+    margin: 0% 30% 20% 0%;
+}
+
+
+.contact-content1 {
+    color: white;
+    font-size: 185%;
+    margin: 0% 0% 2% 31%;
+    list-style: none;
+}
+
+
+.heading {
+    font-size: 350%;
+    margin: 5% 20% 10% 40%;
+    color: rgb(11, 210, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.about-content {
+    margin: 10% 10% 30% 0%;
+}
+
+
+.photo1 {
+    width: 30vw;
+    height: 60vh;
+    margin: 15% 0% 0% 25%;
+    border-radius: 100%;
+    border: 7px solid;
+    border-color: rgb(11, 210, 255);
+    box-shadow: 4px 4px 10px 10px  rgb(11, 210, 255);
+}
+
+
+.heading1{
+    color:  rgb(11, 210, 255);
+    margin: 0% 0% 0% 0%;
+    font-size: 350%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .skill-image1{
+    width: 25%;
+    height: 80%;
+    margin: 0% 0% 0% 65%;
+}
+
+.skills-image{
+    margin: 0% 0% 0% 0%;
+} */
