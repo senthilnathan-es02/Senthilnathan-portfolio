@@ -394,7 +394,7 @@ p {
   padding: 30px; /* Reduced padding for a cleaner look */
   text-align: center;
   margin-right: 5%;
-  cursor: pointer;
+
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
