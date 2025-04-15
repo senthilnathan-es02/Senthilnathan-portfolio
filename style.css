@@ -3,19 +3,22 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-color: #fafafa;
 }
 
 /* Header */
 .header {
   display: flex;
   position: fixed;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 94%; /* Ensures the header spans the full width */
+  width: 94%;
+  /* Ensures the header spans the full width */
   padding: 20px 50px;
   background-color: #f8f8f8;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 10; /* Keeps the header above other elements */
+  z-index: 10;
+  /* Keeps the header above other elements */
 }
 
 .header-name h3 {
@@ -45,8 +48,7 @@ body {
 
 .navbar.active {
   color: purple;
-
-  border-bottom: 2px solid purple; 
+  border-bottom: 2px solid purple;
 }
 
 /* Home Section */
@@ -57,13 +59,13 @@ body {
 }
 
 .icon-logo {
-  margin-top: 22%;
-  margin-left: 10%;
+  margin-top: 25%;
+  margin-left: 12%;
 }
 
 .icon-logo i {
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
   padding-bottom: 30px;
   color: black;
 }
@@ -77,16 +79,22 @@ body {
 }
 
 .home-content {
-  margin-top: 17%;
-  margin-left: 5%;
-  margin-right: 20%;
+  margin-top: 16%;
+  margin-left: 7%;
+  margin-right: 15%;
+}
+
+.home-content h1 {
+  font-size: 50px;
+  color: #333333;
 }
 
 .home-content h2 {
   color: black;
 }
-span{
-  color: purple;
+
+span {
+
   margin-left: 15px;
 }
 
@@ -94,7 +102,7 @@ span{
   color: gray;
 }
 
-.header-name h3{
+.header-name h3 {
   color: purple;
 }
 
@@ -110,7 +118,7 @@ span{
   margin-top: 10%;
 }
 
-.home-content button:hover{
+.home-content button:hover {
   background-color: rgb(52, 49, 49);
 }
 
@@ -119,8 +127,8 @@ span{
 }
 
 .home-image img {
-  width: 400px;
-  margin-top: 48%;
+  width: 370px;
+  margin-top: 58%;
   border-radius: 200px;
   transition: box-shadow 0.5s ease-in-out;
   cursor: pointer;
@@ -196,7 +204,7 @@ span{
 
 
 .about-photo img:hover {
-box-shadow: 0 0 35px purple;
+  box-shadow: 0 0 35px purple;
 }
 
 
@@ -213,22 +221,24 @@ box-shadow: 0 0 35px purple;
   margin: 2rem auto;
   padding: 1rem;
   text-align: center;
-  margin-bottom:200px;
+  margin-bottom: 200px;
   padding-top: 13%;
 }
 
-.qualification h6{
+.qualification h6 {
   color: purple;
   font-size: 15px;
 }
 
-.qualification h2{
+.qualification h2 {
   font-size: 30px;
 }
-.tabs{
-  margin-left: 12%;
+
+.tabs {
+  margin-left: 0%;
 }
-.tabs button{
+
+.tabs button {
   width: 250px;
   height: 50px;
   border: none;
@@ -237,38 +247,45 @@ box-shadow: 0 0 35px purple;
   font-size: 20px;
   margin-top: 4%;
   margin-right: 15%;
-  
+
 }
 
-.tabs i{
-  color:gray;
+.tabs i {
+  color: gray;
   margin-right: 3%;
 }
 
-.all-tabs{
+.all-tabs {
   display: flex;
   flex-direction: row;
-  margin-left: 15%;
+  margin-left: 18%;
+  margin-top: 10%;
 }
 
-.tab-content{
-  margin-right: 20%;
+.tab-content {
+  margin-right: 1%;
 }
 
 
-.timeline-item i{
+
+.timeline-item i {
   color: gray;
   margin-right: 4%;
 }
 
-.timeline-item span{
+.timeline-item span {
   color: black;
 }
 
-.timeline-item h3{
+.timeline-item h3 {
   color: purple;
 }
 
+.education-img img {
+  width: 30px;
+  height: 220px;
+  margin: 2%;
+}
 
 
 
@@ -287,26 +304,30 @@ box-shadow: 0 0 35px purple;
   padding-bottom: 5%;
 }
 
-.frontend{
+.frontend {
   margin-left: 5%;
 
 }
-.skill-head{
+
+.skill-head {
   margin-top: 10px;
   margin-right: 5%;
   margin-bottom: 5%;
 }
+
 .skill-lang {
   display: inline-block;
   margin: 1rem;
   text-align: center;
   margin-right: 5%;
   margin-top: 5%;
- 
+
 }
-.skill-head h4{
+
+.skill-head h4 {
   color: purple;
 }
+
 .skill-lang h3 {
   margin-top: 25px;
 }
@@ -321,12 +342,15 @@ box-shadow: 0 0 35px purple;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: conic-gradient(
-      purple 0deg,  /* Start Progress */
-      purple var(--progress), /* End Progress */
-      whitesmoke var(--progress), /* Remaining Background */
-      whitesmoke 360deg /* Complete Circle */
-  );
+  background: conic-gradient(purple 0deg,
+      /* Start Progress */
+      purple var(--progress),
+      /* End Progress */
+      whitesmoke var(--progress),
+      /* Remaining Background */
+      whitesmoke 360deg
+      /* Complete Circle */
+    );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,38 +395,42 @@ p {
   padding-top: 5%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align the container content */
+  align-items: center;
+  /* Center align the container content */
 }
 
 .project-pages {
   display: flex;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
-  gap: 20px; /* Add space between the project cards */
-  justify-content: center; /* Center align the project cards */
+  flex-wrap: wrap;
+  /* Allow wrapping for smaller screens */
+  gap: 20px;
+  /* Add space between the project cards */
+  justify-content: center;
+  /* Center align the project cards */
   margin-top: 5%;
-  width: 100%; /* Ensure it takes full width */
+  width: 100%;
+  /* Ensure it takes full width */
   max-width: 1200px;
-  margin-left: 5%; /* Limit maximum width */
+  margin-left: 5%;
+  /* Limit maximum width */
 }
 
 .project-content {
-  flex: 1 1 calc(300px); /* Each card takes a minimum of 300px */
-  max-width: 300px; /* Set a max width for each card */
+  flex: 1 1 calc(300px);
+  /* Each card takes a minimum of 300px */
+  max-width: 250px;
+  /* Set a max width for each card */
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 30px; /* Reduced padding for a cleaner look */
+  padding: 30px;
+  /* Reduced padding for a cleaner look */
   text-align: center;
   margin-right: 5%;
 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
-
-.project-content:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
 
 .project-content img {
   max-width: 100%;
@@ -454,7 +482,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 130px;
+  padding: 120px;
   gap: 20px;
 }
 
@@ -465,9 +493,11 @@ p {
 
 .logo-img {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 10px;
   margin-top: 20px;
+  margin-left: 5%;
+  border-radius: 5px;
 }
 
 .contact-content {
@@ -495,7 +525,8 @@ p {
   display: block;
 }
 
-.text-box, textarea {
+.text-box,
+textarea {
   width: 280px;
   padding: 10px;
   border: 1px solid #ccc;
@@ -503,16 +534,17 @@ p {
 }
 
 textarea {
-  
+
   height: 100px;
 }
 
 .form-button {
   background-color: purple;
+  width: 300px;
   color: #fff;
   padding: 10px;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
 }
@@ -521,13 +553,15 @@ textarea {
   background-color: rgb(139, 89, 139);
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border: 1px solid purple;
   outline: none;
   box-shadow: 0 0 5px rgba(128, 0, 128, 0.5);
   transition: 0.3s ease-in-out;
 }
-.submit-logo{
+
+.submit-logo {
   margin-left: 22%;
 }
 
@@ -537,7 +571,7 @@ input:focus, textarea:focus {
   color: black;
   text-align: center;
   padding: 10px 10px;
-  
+
 }
 
 .footer-content {
@@ -568,12 +602,12 @@ input:focus, textarea:focus {
 /* Mobile (max-width: 576px) */
 @media (max-width: 576px) {
   .header {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
-  .header-name h3{
-   display: none;
+  .header-name h3 {
+    display: none;
   }
 
   .navbar-div {
@@ -594,10 +628,10 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     margin-right: 25%;
-    
+
   }
 
-  .icon-logo a{
+  .icon-logo a {
     margin-right: 40%;
   }
 
@@ -633,7 +667,7 @@ flex-direction: column;
     margin-bottom: 10%;
   }
 
-  .about button{
+  .about button {
     margin-left: 0%;
   }
 
@@ -642,10 +676,11 @@ flex-direction: column;
     margin: 0 auto;
   }
 
-  .qualification{
+  .qualification {
     padding-top: 35%;
     padding-bottom: 5%;
   }
+
   .all-tabs {
     flex-direction: column;
     align-items: center;
@@ -657,7 +692,7 @@ flex-direction: column;
     width: 90%;
     margin: 0 auto;
   }
-  
+
 
   .skill-container {
     padding-top: 0%;
@@ -667,27 +702,30 @@ flex-direction: column;
     margin: 2rem auto;
     display: block;
     margin-bottom: 5%;
-    
+
   }
 
 
-  .progress-circle{
+  .progress-circle {
     margin-left: 35%;
   }
 
 
-  .skill-lang h3, p{
+  .skill-lang h3,
+  p {
     text-align: center;
   }
+
   .contact-container {
     flex-direction: column;
     padding: 35px;
     padding-top: 10%;
   }
 
-.form-full{
-  width: 320px;
-}
+  .form-full {
+    width: 320px;
+  }
+
   .logo-img {
     max-width: 100%;
   }
@@ -751,4 +789,3 @@ flex-direction: column;
     width: 70%;
   }
 }
-
