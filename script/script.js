@@ -2,7 +2,7 @@ document.getElementById("download-cv").onclick = function () {
 
     const link = document.createElement("a");
 
-    link.href = "./assets/image/senthilnathan_resume.pdf";
+    link.href = "./assets/image/Senthilnathan-resume.pdf";
 
     link.download = "senthilnathan-CV.pdf";
 
